@@ -153,3 +153,4 @@ Install latest `unstable version`_::
    :alt: Bitdeli badge
    :target: https://bitdeli.com/free
 
+This sample is built for Shippable, a docker based continuous integration and deployment platform.
