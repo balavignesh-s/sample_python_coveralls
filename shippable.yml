@@ -1,4 +1,3 @@
-build_image: drydock/u12pytpls:tip
 language: python
 python:
   - 2.6
@@ -11,7 +10,6 @@ python:
   - pypy3
 install:
   - python setup.py develop
-  - pip install coveralls
 
 before_script: mkdir -p shippable/codecoverage shippable/testresults
 script:
