@@ -10,7 +10,9 @@ python:
   - pypy
   - pypy3
 install:
-  python setup.py develop
+  - python setup.py develop
+  - pip install coveralls
+
 before_script: mkdir -p shippable/codecoverage shippable/testresults
 script:
   - coverage run --source=coveralls setup.py test
